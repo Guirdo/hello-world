@@ -1,7 +1,5 @@
 package calculadora;
 
-import javax.swing.*;
-
 public class Medley {
     
     public int sacarPunMed(int x,int y,int z,int a1){
