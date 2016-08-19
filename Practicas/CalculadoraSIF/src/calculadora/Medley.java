@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Medley {
     
-    public double sacarPunMed(int x,int y,int z,int a1){
+    public int sacarPunMed(int x,int y,int z,int a1){
         double puntos = 0;
         int matriz[][] = new int[4][3];
         
@@ -37,10 +37,26 @@ public class Medley {
         }
         
         puntos = Math.floor(puntos);
+        puntos = (int) puntos;
         
-        JOptionPane.showMessageDialog(null,"Puntos obtenidos: "+puntos);
-        
-        return puntos;
+        return (int) puntos;
     }
+    
+    /*public String mostrarMensaje(int x,int y,int z){//x = Dificultad, y = puntos obtenidos
+        String mensaje = "";
+        
+        if(x==0&&y==3&&z>=126)
+            mensaje = "\t¡Sigue así!\n¡Tus puntos son eficientes!";
+        else if(x==0&&y==2&&z>=81)
+            mensaje = "\t¡Sigue así!\n¡Tus puntos son eficientes!";
+        if(x==1&&y==3&&z>=257)
+            mensaje = "\t¡Sigue así!\n¡Tus puntos son eficientes!";
+        if(x==2&&y>=211)
+            mensaje = "\t¡Sigue así!\n¡Tus puntos son eficientes!";
+        if(x==3&&y>=393)
+            mensaje = "\t¡Sigue así!\n¡Tus puntos son eficientes!";
+        
+        return mensaje;
+    }*/
     
 }
