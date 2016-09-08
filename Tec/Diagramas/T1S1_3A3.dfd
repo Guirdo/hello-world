@@ -1,0 +1,35 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+46
+'Ingrese el radio de la circunferencia, en cm'
+5
+1
+5
+radio
+6
+3
+4
+area
+14
+3.1416*radio^2
+4
+peri
+14
+2*3.1416*radio
+3
+vol
+22
+((4/3)*3.1416)*radio^3
+4
+1
+70
+'Area: ',area,' cm^2
+Perimetro: ',peri,' cm 
+Volumen: ',vol,' cm^3' 
+1

@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+40
+'Ingrese la cantidad en pesos mexicanos'
+5
+1
+4
+peso
+4
+1
+41
+'Ingrese el tipo de cambio para el dolar'
+5
+1
+3
+dol
+4
+1
+40
+'Ingrese el tipo de cambio para el euro'
+5
+1
+2
+eu
+4
+1
+51
+'Ingrese el tipo de cambio para la libra esterlina'
+5
+1
+3
+lib
+4
+1
+47
+'Ingrese el tipo de cambio para el Yen japones'
+5
+1
+2
+ye
+6
+3
+5
+dolar
+8
+peso/dol
+4
+euro
+7
+peso/eu
+6
+libras
+8
+peso/lib
+6
+1
+3
+yen
+7
+peso/ye
+4
+1
+101
+'Dolar: ',dolar,'.
+', 'Euro: ',euro,'.
+', 'Libra esterlina: ',libras,'.
+', 'Yen Japones: ',yen,'.'
+1

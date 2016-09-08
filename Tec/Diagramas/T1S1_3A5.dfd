@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+30
+'Ingrese su año de nacimiento'
+5
+1
+4
+naci
+4
+1
+23
+'Ingrese el año actual'
+5
+1
+6
+actual
+6
+1
+4
+dias
+17
+(actual-naci)*365
+4
+1
+43
+'Los dias totales que ha vivido son: ',dias
+1

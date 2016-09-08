@@ -41,7 +41,7 @@ public class Principal {
                 //mensaje=med.mostrarMensaje(eventLiDif,numC, puntos);
                 
                 JOptionPane.showMessageDialog(null,"Puntos obtenidos: "+puntos);
-                JOptionPane.showMessageDialog(null,mensaje);
+                //JOptionPane.showMessageDialog(null,mensaje);
             }else if(seleccionEvento==2){
                 eventLiDif=JOptionPane.showOptionDialog(null,"Dificultad del Score Match:",eventos[1],JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null,dificultad,"Easy");
                 eventLu=JOptionPane.showOptionDialog(null,"Lugar en el Score \nMatch más frecuente:","Score Match",JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, lugar, null);
