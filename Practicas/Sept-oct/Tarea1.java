@@ -1,3 +1,4 @@
+//Esto es como include, que llamaria a stdio y math
 import java.util.*;
 
 public class Tarea1{
@@ -28,7 +29,7 @@ public class Tarea1{
         //Ciclo que genera todos los resultados necesarios
         for (i=1;i<=10 ;i++ ) {
           //Genera el numero aleatorio
-          num = (int)Math.floor(alea.nextDouble()*(41-1+1)-1);
+          num = (int)Math.floor(alea.nextDouble()*(41-1+1)-1);//(maximo-minimo+1)-minimo
 
           //Comprueba si es par o impar
           if (num % 2 == 0) {
@@ -45,7 +46,7 @@ public class Tarea1{
           //Equivalente a printf, imprime los resultados del numero aleatorio generado
           System.out.println(i+"\t \t"+num+"\t"+tipo+"\t"+cua+"\t \t"+raiz+"\t \t"+seno);
 
-          //Devuelve un valor nuestro a num para la siguiente repeticion
+          //Devuelve un valor nuetro a num para la siguiente repeticion
           num = 0;
         }
 
