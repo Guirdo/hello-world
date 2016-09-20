@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+7
+camisas
+5
+1
+5
+costo
+7
+0
+1
+22
+camias>0 AND costo > 0
+4
+1
+27
+'Error al introducir datos'
+13
+7
+0
+1
+11
+camias >= 3
+6
+1
+4
+pago
+17
+costo*camisas*0.9
+13
+6
+1
+4
+pago
+17
+costo*camisas*0.8
+13
+4
+1
+23
+'Total a pagar: $',pago
+13
+1

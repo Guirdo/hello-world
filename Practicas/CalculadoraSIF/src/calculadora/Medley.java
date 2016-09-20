@@ -6,7 +6,7 @@ public class Medley {
         double puntos = 0;
         int matriz[][] = new int[4][3];
         
-        matriz[0][0]=31;//matriz[Dificultad de medley][numero de camciones]
+        matriz[0][0]=31;//matriz[Dificultad de medley][numero de canciones]
         matriz[0][1]=64;
         matriz[0][2]=99;
         matriz[1][0]=72;

@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+5
+horas
+7
+0
+1
+9
+horas > 0
+4
+1
+40
+'Error al introducir el numero de horas'
+13
+7
+0
+1
+11
+horas <= 40
+6
+1
+7
+salario
+29
+((horas-40)*57.56)+(40*28.78)
+13
+6
+1
+7
+salario
+11
+horas*28.78
+13
+4
+1
+39
+'Salario total de la semana: $',salario
+13
+1

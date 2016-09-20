@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+4
+pago
+7
+0
+1
+6
+pago>0
+4
+1
+27
+'Error al introducir datos'
+13
+7
+0
+1
+11
+pago > 1000
+4
+1
+29
+'Monto total a pagar: $',pago
+13
+6
+1
+5
+pagoT
+15
+pago-(pago*0.2)
+4
+1
+30
+'Monto total a pagar: $',pagoT
+13
+13
+1

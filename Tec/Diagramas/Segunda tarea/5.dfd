@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+6
+precio
+7
+0
+1
+10
+precio > 0
+4
+1
+35
+'Error: introduzca un valor valido'
+13
+7
+0
+1
+10
+precio < 3
+7
+0
+1
+10
+precio > 6
+4
+1
+40
+'El precio de venta es de: $',precio+0.5
+13
+4
+1
+41
+'El precio de venta es de: $',precio*1.25
+13
+13
+4
+1
+41
+'El precio de venta es de: $',precio*1.15
+13
+13
+1

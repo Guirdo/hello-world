@@ -1,0 +1,37 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+4
+temp
+7
+0
+1
+21
+temp>0 AND temp < 100
+7
+0
+1
+9
+temp>=100
+4
+1
+39
+'El agua se encuentra en estado solido'
+13
+4
+1
+40
+'El agua se encuentra en estado gaseoso'
+13
+13
+4
+1
+40
+'El agua se encuentra en estado liquido'
+13
+1

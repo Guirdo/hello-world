@@ -1,0 +1,97 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+6
+presta
+7
+0
+1
+10
+presta > 0
+4
+1
+27
+'Error al introducir datos'
+13
+7
+0
+1
+13
+presta > 5000
+7
+0
+1
+65
+presta > 1000 AND presta<2000 OR presta > 3000 AND presta <= 5000
+7
+0
+1
+33
+presta >= 2000 AND presta <= 3000
+6
+1
+5
+meses
+1
+1
+13
+6
+1
+5
+meses
+1
+2
+13
+13
+6
+1
+5
+meses
+1
+5
+13
+13
+6
+1
+5
+meses
+1
+3
+13
+7
+0
+1
+13
+presta < 4000
+6
+1
+7
+interes
+3
+1.1
+13
+6
+1
+7
+interes
+4
+1.12
+13
+6
+1
+6
+mensua
+22
+(presta*interes)/meses
+4
+1
+71
+meses,' mes(es) a pagar.
+El costo de cada mensualidad es de: $',mensua
+13
+1

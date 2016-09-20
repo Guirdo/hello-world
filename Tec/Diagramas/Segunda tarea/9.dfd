@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+4
+cal1
+5
+1
+4
+cal2
+5
+1
+4
+cal3
+7
+0
+1
+85
+cal1 >= 0 AND cal1 <= 100 AND cal2 >= 0 AND cal2 <= 100 AND cal3 >= 0 AND cal3 <= 100
+4
+1
+42
+'Error: introduzca calificaciones validas'
+13
+7
+0
+1
+40
+cal1 >= 70 AND cal2 >= 70 AND cal3 >= 70
+4
+1
+11
+'Reprobado'
+13
+4
+1
+10
+'Aprobado'
+13
+13
+1
