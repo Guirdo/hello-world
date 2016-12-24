@@ -1,0 +1,99 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+5
+men15
+1
+0
+9
+entre4555
+1
+0
+5
+may55
+1
+0
+5
+1
+4
+cNum
+7
+0
+1
+8
+cNum > 0
+4
+1
+80
+'Error: el conjunto de numeros debe tener un numero de elementos mayores a cero'
+13
+8
+1
+1
+i
+1
+1
+1
+1
+4
+cNum
+1
+1
+1
+5
+1
+3
+num
+7
+0
+1
+8
+num < 15
+7
+0
+1
+23
+num >= 45 AND num <= 55
+13
+6
+1
+9
+entre4555
+11
+entre4555+1
+13
+7
+0
+1
+8
+num > 55
+13
+6
+1
+5
+may55
+7
+may55+1
+13
+13
+6
+1
+5
+men15
+7
+men15+1
+13
+10
+4
+1
+164
+'La cantidad de numeros menores a 15 es de: ',men15,'
+La cantidad de numeros entre 45 y 55 es de: ',entre4555,'
+La cantidad de numeros mayores a 55 es de: ',may55
+13
+1

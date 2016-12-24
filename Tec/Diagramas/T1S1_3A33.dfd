@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+1
+i
+1
+1
+5
+1
+3
+inv
+5
+1
+5
+meses
+7
+0
+1
+21
+meses > 0 AND inv > 0
+4
+1
+31
+'Error al introducir los datos'
+13
+9
+1
+10
+i <= meses
+6
+2
+3
+inv
+8
+inv*1.02
+1
+i
+3
+i+1
+11
+4
+1
+28
+'El monto total es de: ',inv
+13
+1

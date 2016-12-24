@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+5
+divid
+5
+1
+5
+divis
+6
+2
+4
+resi
+7
+divis+1
+4
+coci
+1
+0
+7
+0
+1
+23
+divid > 0 AND divis > 0
+4
+1
+40
+'Error: introduzca numeros mayor a cero'
+13
+9
+1
+13
+resi >= divis
+6
+3
+5
+divid
+11
+divid-divis
+4
+resi
+5
+divid
+4
+coci
+6
+coci+1
+11
+4
+1
+55
+'El cociente es de: ',coci,'
+El cociente es de: ',resi
+
+13
+1

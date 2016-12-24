@@ -4,11 +4,18 @@ public class Score {
 
     public int sacarPuntos(int x,int y,int z){
         double puntos = 0;
-        int matriz[] = new int[4];
+
+        //Determinada por la dificultad
+        int [] matriz = {36,89,163,272};
+
+        //int matriz[] = new int[4];
+
+        /*
         matriz[0]=36;
         matriz[1]=89;
         matriz[2]=163;
         matriz[3]=272;
+        */
 
         switch(y){//Determinada por lugar en el match
             case 0: puntos = matriz[x]*1; break;
@@ -26,6 +33,7 @@ public class Score {
             case 4: puntos = puntos*1.2; break;
         }
 
+        //Pasa los puntos a enteros para evitar que salga el punto decimal
         puntos = Math.floor(puntos);
         puntos = (int) puntos;
 
