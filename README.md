@@ -5,7 +5,7 @@ Estudiante de ingeniería en sistemas computacionales en el Instituto Tecnológi
 
 En este repositorio encontraras casi todo (sino es que todo, absolutamento todo) el codigo que voy haciendo en clases o cuando se me hinchan... los ojos de tantas ganas de programar.
 
-# Y ahora un poco de poesía...
+# Y ahora, un poco de poesía...
 
 ```
 "Tú joven, tú feliz, tú a quien halaga
@@ -24,4 +24,4 @@ el árbol misterioso de la vida!"
 En palabras del tío Ben:
 >With great power comes great responsibility
 
-Así que usa bien este repositorio. **Si me conoces en persona y te he pasado el link de mi repositorio, me debes una salida al cine :D** 
+Así que usa bien este repositorio. **Si me conoces en persona y te he pasado el link de mi repositorio, me debes una salida al cine :D**
