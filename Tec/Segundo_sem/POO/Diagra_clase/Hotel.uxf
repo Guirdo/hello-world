@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>232</x>
+      <y>88</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Hotel
+--
+-habituales: Diccionary
+-ocupadas: List[MAXHAB]
+-disponibles: List[MAXHAB]
+--
++habDisp(tipoHab: int): void
++precioHab(tipoHab: int): double
++descCliente(): double
++consultaPrecio(rtc: String, tipoHab: int, noches: int): double
++mostrarHab(tipoHab: int): void
++reservarHab(tipoHab: int, rtc: String, nombre: String): void
++eliminiarReservacion(numHab: int): boolean
++modificarPrecioHab(tipoHab: int, precio: double): void
++modificarDescuento(descuento: double): void
++calcularGanancia(mes: int): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>56</x>
+      <y>152</y>
+      <w>112</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Diccionary
+--
+
+--
++add()
++remove()
++find()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>328</y>
+      <w>104</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Cliente
+--
+-rtc: String
+-nombre: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>184</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>72</x>
+      <y>416</y>
+      <w>128</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Habitual
+--
+-descuento: double
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>424</y>
+      <w>96</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Esporadico
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>384</y>
+      <w>56</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>384</y>
+      <w>80</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>224</y>
+      <w>24</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>376</x>
+      <y>328</y>
+      <w>144</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Reservacion
+--
+-fechaIni: String
+-numDias: int
+-cliente: Cliente
+-Hab: Habitacion
+--
++reservacion()
++imprime()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>280</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>272</x>
+      <y>352</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1=1
+m2=0..*
+</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>736</x>
+      <y>280</y>
+      <w>112</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Habitacion
+--
+
+--
++fotoHab()
++getPrecio()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>184</y>
+      <w>232</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1...*</panel_attributes>
+    <additional_attributes>10.0;10.0;240.0;10.0;240.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>328</y>
+      <w>240</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1=1
+m2=0...*</panel_attributes>
+    <additional_attributes>280.0;10.0;80.0;10.0;80.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>584</x>
+      <y>496</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Sencilla
+--
+-foto: Picture
+-precio: double
+--
++fotoHab()
++getPrecio()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>496</y>
+      <w>104</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Doble
+--
+-foto: Picture
+-precio: double
+--
++fotoHab()
++getPrecio()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>856</x>
+      <y>496</y>
+      <w>96</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Matrimonial
+--
+-foto: Picture
+-precio: double
+--
++fotoHab()
++getPrecio()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>632</x>
+      <y>360</y>
+      <w>144</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;160.0;80.0;10.0;80.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>360</y>
+      <w>24</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>360</y>
+      <w>88</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;90.0;90.0;90.0;170.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,11 @@
+ul.horizontal{
+margin:0;
+padding:0;
+}
+
+ul.horizontal li{
+background-color:#fc0000;
+display:block;
+float:left;
+padding:0 30px;
+}
