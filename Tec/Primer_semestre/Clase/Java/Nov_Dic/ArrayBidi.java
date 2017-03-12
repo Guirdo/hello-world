@@ -41,7 +41,7 @@ public class ArrayBidi{
             break;
           }
 
-        } while ();
+        } while (1=1);
       }
     }catch (Exception e) {
       JOptionPane.showMessageDialog(null,"Error...","Mensaje de error",JOptionPane.ERROR_MESSAGE);

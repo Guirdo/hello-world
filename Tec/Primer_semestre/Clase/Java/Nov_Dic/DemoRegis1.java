@@ -20,9 +20,7 @@ public class DemoRegis1{
         for (int j=0;j<nAlum ;j++ ) {
           do {
 
-          } while (
-          
-          );
+          } while (1==1);
         }
       }
     }catch (Exception e) {

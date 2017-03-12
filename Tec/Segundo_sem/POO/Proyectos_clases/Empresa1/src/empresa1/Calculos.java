@@ -50,9 +50,11 @@ public class Calculos {
     public int darEmple(ArrayList<Empleado> lista) {
         int pos = 0;
 
-        for (int i = 0; i < lista.size(); i++) {
-            if (pos <= lista.get(i).getTiemTraba()) {
-                pos = i;
+        for (int j = 0; j < lista.size(); j++) {
+            for (int i = 0; i < lista.size(); i++) {
+                if (lista.get(i).getTiemTraba() > lista.get(j).getTiemTraba()) {
+                    pos = i;
+                }
             }
         }
 
