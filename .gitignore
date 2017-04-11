@@ -1,4 +1,5 @@
 *.class
+*.exe
 
 /Practicas/CalculadoraSIF/nbproject/private/
 /Practicas/CalculadoraSIF/build/
@@ -41,3 +42,30 @@
 /Tec/Segundo_sem/POO/Proyectos_clases/DemoSuper1/build/
 /Tec/Segundo_sem/POO/Proyectos_clases/DemoHerencia1/nbproject/private/
 /Tec/Segundo_sem/POO/Proyectos_clases/DemoHerencia1/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/AppTienda/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoEmpre1/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoEmpre1/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/AppUniversitaria/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/AppBiblioteca/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/AppBiblioteca/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/Windows/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/Windows/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoTienda/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoTienda/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/Figura/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoFigura/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoFigura/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoPersonalidades/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoBaseDatos/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoBaseDatos/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoFigura2/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/DemoFigura2/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/AppTienda/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/Try1/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/Try1/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/AlumnoExc/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/AlumnoExc/build/
+/Tec/Segundo_sem/POO/Proyectos_clases/Excepcion1/nbproject/private/
+/Tec/Segundo_sem/POO/Proyectos_clases/Excepcion1/build/
+/Tec/Segundo_sem/POO/Examen_07042017/AppTienda/nbproject/private/
+/Tec/Segundo_sem/POO/Examen_07042017/AppTienda/build/
