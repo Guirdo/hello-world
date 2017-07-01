@@ -1,0 +1,5 @@
+package leerarchivobinario;
+
+class DatInputStream {
+
+}

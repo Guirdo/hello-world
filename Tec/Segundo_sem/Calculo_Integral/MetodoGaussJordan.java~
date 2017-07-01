@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+import javax.swing.JTextArea;
+
+public class MetodoGaussJordan{
+  
+  public static void main(String[] args){
+    
+    double a,b,z;
+    int n;
+    
+    n = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el numero de columnas y filas de la matriz","Entrada de datos",JOptionPane.QUESTION_MESSAGE));
+                           double matriz[][] = new double[n][n+1];
+                           for(int i=0;i<n;i++){                       
+                             for(int j=0;j<n+1;j++){
+                               matriz[i][j] = Double.parseDouble(JOptionPane.showInputDialog(null,"Ingrese cada uno de los numeros.\nFila "+i+"\nColumna "+j,"Entrada de datos",JOptionPane.QUESTION_MESSAGE));
+                             }
+                           }
+                           
+                           String sal="";
+                           for(int i=0;i<n;i++){                       
+                             for(int j=0;j<n+1;j++){
+                               sal+=matriz[i][j]+"  ";
+                             }
+                             sal+="\n";
+                           }
+                           
+                           JOptionPane.showMessageDialog(null,new JTextArea(sal),null,JOptionPane.INFORMATION_MESSAGE);
+  }
+  
+}
