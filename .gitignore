@@ -1,5 +1,7 @@
 *.class
 *.exe
+*.dat
+*.txt
 
 /Practicas/CalculadoraSIF/nbproject/private/
 /Practicas/CalculadoraSIF/build/
