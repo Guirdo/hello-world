@@ -1,5 +1,5 @@
-# ¿Qué pex, mundo?
-Estudiante de ingeniería en sistemas computacionales en el Instituto Tecnológico de México ITCH; amante de la lírica y la literatura, de la música, de la programación y de la cátsup. 
+﻿# ¿Qué pex, mundo?
+Estudiante de ingeniería en sistemas computacionales en el Instituto Tecnológico de México ITCH.
 
 ## ¿Me creerías si te digo que escribo codigo por mera diversión?
 
