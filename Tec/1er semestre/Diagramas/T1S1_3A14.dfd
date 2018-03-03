@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+6
+codigo
+7
+0
+1
+39
+codigo / 100 >= 1 AND codigo / 100 < 10
+4
+1
+44
+'Error: introduzca el codigo de tres cifras'
+13
+7
+0
+1
+58
+codigo MOD 5 = 0 AND codigo MOD 3 = 0 AND codigo MOD 2 = 0
+7
+0
+1
+37
+codigo MOD 5 = 0 AND codigo MOD 3 = 0
+13
+4
+1
+10
+'Director'
+13
+7
+0
+1
+16
+codigo MOD 2 = 0
+4
+1
+11
+'Seguridad'
+13
+4
+1
+7
+'Staff'
+13
+13
+4
+1
+18
+'Director general'
+13
+13
+1
