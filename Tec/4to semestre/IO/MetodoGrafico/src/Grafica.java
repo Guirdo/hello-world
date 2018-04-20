@@ -105,7 +105,7 @@ public class Grafica extends JFrame {
         setTitle("Método gráfico");
         setSize(800,700);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setJMenuBar(new MenuSuperior());
 
         add(grafica);

@@ -165,6 +165,8 @@ public class Ventana extends JFrame {
 
         grafica.setVisible(true);
 
+        this.dispose();
+
     }
 
 

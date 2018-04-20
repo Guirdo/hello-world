@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MetodoGrafico:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MetodoGrafico_jar</output-path>
+    <root id="archive" name="MetodoGrafico.jar">
+      <element id="module-output" name="MetodoGrafico" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Librerias/jfreechart-1.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Librerias/jcommon-1.0.23.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

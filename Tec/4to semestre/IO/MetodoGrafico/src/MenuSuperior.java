@@ -25,6 +25,7 @@ public class MenuSuperior extends JMenuBar {
         reinicar.addActionListener((ActionEvent event) ->{
             Ventana ventana = new Ventana();
             ventana.setVisible(true);
+
         });
 
         JMenuItem intrucciones = new JMenuItem("Instrucciones");
@@ -35,8 +36,8 @@ public class MenuSuperior extends JMenuBar {
                     "\nSi necesita menos de 4 restricciones, coloce ceros en las que no va utilizar","Instrucciones",JOptionPane.INFORMATION_MESSAGE);
         });
 
-        archivo.add(cerrarBoton);
         archivo.add(reinicar);
+        archivo.add(cerrarBoton);
         ayuda.add(intrucciones);
 
         add(archivo);
