@@ -13,6 +13,7 @@ public class Ventana extends JFrame {
         this.setLocationRelativeTo(null);
         this.setTitle("Memorama");
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        this.setLayout(null);
 
         //Creacion de la tarjetas
         crearTarjetas();
