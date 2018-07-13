@@ -1,3 +1,5 @@
+package clases;
+
 import javax.swing.*;
 
 public class Tarjeta extends JButton {
@@ -5,12 +7,11 @@ public class Tarjeta extends JButton {
     private ImageIcon cara, espalda;
     private boolean volteado;
 
-    public Tarjeta(String cara, String espalda,int x, int y){
+    public Tarjeta(String cara, String espalda){
         this.cara = new ImageIcon(cara);
         this.espalda = new ImageIcon(espalda);
         //true = cara ; false = espalda
         this.setIcon(this.espalda);
-        this.setBounds(x,y,100,140);
         volteado = false;
     }
 
@@ -21,7 +22,6 @@ public class Tarjeta extends JButton {
         }else{
             this.setIcon(espalda);
         }
-        System.out.println("Lo volteo");
     }
 
     public String direccion(){

@@ -15,13 +15,12 @@
       <file leaf-file-name="Ventana.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
+            <state relative-caret-position="1583">
+              <caret line="147" column="56" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#acomodarMesa#0;class#Ventana#0" />
-                <element signature="method#crearMenuSup#0;class#Ventana#0" />
                 <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+                <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
                 <element signature="method#main#0;class#Ventana#0" />
               </folding>
             </state>
@@ -55,8 +54,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Rompezabezas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rompezabezas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -68,23 +78,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="Rompezabezas" type="cbb8eebc:String" user="Rompezabezas" />
               <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Rompezabezas" type="cbb8eebc:String" user="Rompezabezas" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="imagenes" type="cbb8eebc:String" user="imagenes" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Rompezabezas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rompezabezas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,8 +197,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.32884902" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.32740742" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.32884902" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -214,8 +207,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32884902" />
@@ -237,13 +230,64 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="147" column="56" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
+            <element signature="method#main#0;class#Ventana#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="147" column="56" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
+            <element signature="method#main#0;class#Ventana#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="161" column="13" lean-forward="true" selection-start-line="154" selection-start-column="12" selection-end-line="161" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
+            <element signature="method#main#0;class#Ventana#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
+            <element signature="method#main#0;class#Ventana#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
           <caret line="201" column="5" lean-forward="true" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -255,9 +299,8 @@
           <caret line="202" selection-start-line="202" selection-end-line="202" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -269,9 +312,8 @@
           <caret line="202" selection-start-line="202" selection-end-line="202" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -283,9 +325,8 @@
           <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -297,9 +338,8 @@
           <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -311,9 +351,8 @@
           <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -325,9 +364,8 @@
           <caret line="150" selection-start-line="150" selection-end-line="150" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -339,9 +377,8 @@
           <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -353,9 +390,8 @@
           <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
@@ -363,13 +399,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
+        <state relative-caret-position="1583">
+          <caret line="147" column="56" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#acomodarMesa#0;class#Ventana#0" />
-            <element signature="method#crearMenuSup#0;class#Ventana#0" />
             <element signature="method#imprimirRevueltos#0;class#Ventana#0" />
+            <element signature="method#ponerImganesEnBotones#0;class#Ventana#0" />
             <element signature="method#main#0;class#Ventana#0" />
           </folding>
         </state>
