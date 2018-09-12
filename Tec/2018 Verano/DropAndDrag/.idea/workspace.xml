@@ -15,7 +15,7 @@
       <file leaf-file-name="Ventana.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="488">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,7 +43,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="518" />
+    <option name="y" value="-18" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -52,9 +53,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,7 +170,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -193,29 +193,24 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/clases/Boton.java">
+    <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="method#mouseMoved#0;class#Boton#0" />
-            <element signature="method#mousePressed#0;class#Boton#0" />
-            <element signature="method#mouseReleased#0;class#Boton#0" />
-            <element signature="method#mouseEntered#0;class#Boton#0" />
-            <element signature="method#mouseExited#0;class#Boton#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Boton.java" />
     <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -226,23 +221,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clases/Boton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="method#mouseMoved#0;class#Boton#0" />
-            <element signature="method#mousePressed#0;class#Boton#0" />
-            <element signature="method#mouseReleased#0;class#Boton#0" />
-            <element signature="method#mouseEntered#0;class#Boton#0" />
-            <element signature="method#mouseExited#0;class#Boton#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Boton.java" />
     <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -250,26 +229,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clases/Boton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="method#mouseMoved#0;class#Boton#0" />
-            <element signature="method#mousePressed#0;class#Boton#0" />
-            <element signature="method#mouseReleased#0;class#Boton#0" />
-            <element signature="method#mouseEntered#0;class#Boton#0" />
-            <element signature="method#mouseExited#0;class#Boton#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Boton.java" />
     <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="488">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />

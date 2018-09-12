@@ -12,19 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ventana.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ventana.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="110" column="21" lean-forward="true" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1667#3489#0" />
+                <element signature="method#comprobarGanado#0;class#Ventana#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tarjeta.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tarjeta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clases/Tarjeta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -66,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="775" />
@@ -76,6 +78,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Memorama" type="cbb8eebc:String" user="Memorama" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,17 +106,6 @@
               <item name="Memorama" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="clases" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Memorama" type="cbb8eebc:String" user="Memorama" />
             </path>
           </expand>
           <select />
@@ -211,35 +213,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="775" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3288889" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3288889" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11851852" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5007342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3288889" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -253,8 +255,16 @@
           <line>10</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/clases/Ventana.java</url>
+          <line>117</line>
+          <properties class="clases.Ventana" method="comprobarGanado">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -264,6 +274,60 @@
           <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Tarjeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Tarjeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -288,6 +352,8 @@
           <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -319,6 +385,8 @@
           <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -350,6 +418,8 @@
           <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -374,6 +444,8 @@
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -398,6 +470,8 @@
           <caret line="103" column="190" selection-start-line="103" selection-start-column="190" selection-end-line="103" selection-end-column="190" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -422,6 +496,8 @@
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -446,6 +522,8 @@
           <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -463,6 +541,8 @@
           <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
         </state>
       </provider>
@@ -488,6 +568,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/clases/Tarjeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/clases/Cronometro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -497,18 +584,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clases/Ventana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="110" column="21" lean-forward="true" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1667#3489#0" />
+            <element signature="method#comprobarGanado#0;class#Ventana#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clases/Tarjeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

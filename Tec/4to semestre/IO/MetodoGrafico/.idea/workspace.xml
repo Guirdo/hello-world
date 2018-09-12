@@ -29,7 +29,7 @@
       <file leaf-file-name="Ventana.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ventana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
+            <state relative-caret-position="1615">
               <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,8 +43,8 @@
       <file leaf-file-name="Grafica.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Grafica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+            <state relative-caret-position="760">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,6 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,8 +135,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,13 +239,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32740742" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -254,8 +255,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -263,13 +264,51 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuSuperior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grafica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -525,18 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuSuperior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -547,10 +574,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ventana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Grafica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+        <state relative-caret-position="760">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
