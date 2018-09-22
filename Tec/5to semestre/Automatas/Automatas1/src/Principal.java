@@ -14,12 +14,10 @@ public class Principal {
         System.out.print("Introduzca numero: ");
         int n = sc.nextInt();
 
-        String numero = ""+Math.pow(3+Math.sqrt(5),n);
+        String numero = String.valueOf(calculo(n));
+        System.out.println(raizCuadrada(5));
 
-
-        System.out.println(numero);
         char aux = 0;
-
         for(int i=0;i<numero.length();i++){
             aux= numero.charAt(i);
             //System.out.println(aux+"      "+Character.getType(aux));
@@ -28,41 +26,39 @@ public class Principal {
             }else{
                 i=numero.length();
             }
-
         }
 
-        int r=1;
-        Stack pila = new Stack();
-        for(int j = arreglo.size()-1;j>=0;j--){
-            if(r<=3){
-                pila.push(arreglo.get(j));
-                r++;
-            }
+        for(int i=arreglo.size();i<=arreglo.size()-4;i--){
+            System.out.println(arreglo.get(i));
         }
-
-        System.out.print(pila.pop());
-        System.out.print(pila.pop());
-        System.out.print(pila.pop());
 
         System.exit(0);
 
     }
 
-    public void calculo(int n){
-        long resultado=0;
-        for(int i=0;i<n-1;i++){
-            resultado=0;
-        }
+    public static double calculo(int n){
+        double resultado=elevar(3+raizCuadrada(5),n);
+        return resultado;
     }
 
-    public void raizCuadrada(long n){
-        long cont=0;
-        long aux=0;
-        while(aux >= cont*cont){
-            cont++;
-        }
+    public static double raizCuadrada(int num){
+        double x = num,x1;
+        int i;
+        do{
+            x1=x;
+            x = (((x * x) + num) / (2 * x));
+            System.out.println(" La raiz de"+num+" es: "+ x);
+        }while (x!=x1);
+        return x;
 
-        //return cont;
+    }
+
+    public static double elevar(double m,int n){
+        if(n!=0){
+            return m * elevar(m,n-1);
+        }else{
+            return 1;
+        }
     }
 
 }
