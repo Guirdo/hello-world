@@ -5,6 +5,8 @@ Estudiante de ingeniería en sistemas computacionales en el Instituto Tecnológi
 
 En este repositorio encontraras casi todo (sino es que todo, absolutamento todo) el codigo que voy haciendo en clases o cuando se me hinchan... los ojos de tantas ganas de programar.
 
+En la Wiki podras encontrar varios recursos interesantes y un poco sobre mi historia en el proceso de convertirme en un programador profesional
+
 # Y ahora, un poco de poesía...
 
 ```
