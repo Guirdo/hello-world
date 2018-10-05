@@ -238,7 +238,7 @@ public class Tabla implements Serializable {
         javax.swing.table.DefaultTableModel tab = new javax.swing.table.DefaultTableModel(
                 crearTabla(),
                 new String[]{
-                    "Clases", "Valor medio", "Frecuencia absoluta", "Frecuencia relativa", "F.A. acumulada", "F.R. acumulada"
+                    "Clases", "Valor medio", "Frecuencia abso", "Frecuencia relativa", "F.A. acumulada", "F.R. acumulada"
                 }
         ) {
             Class[] types = new Class[]{

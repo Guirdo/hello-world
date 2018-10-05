@@ -1,17 +1,21 @@
-import javax.swing.*;
-import java.awt.*;
+
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.Timer;
 
-public class Final extends JDialog {
 
+public class Final extends JDialog{
     //Atributos
     private JLabel mensaje,contador;
-    private Boton si,no;
+    private JButton si,no;
     private static boolean continuar;
     private Timer reloj;
     private int tiempo;
-    
+
     public Final(){
         setTitle("¡Has ganado!");
         setSize(215,150);
@@ -31,7 +35,7 @@ public class Final extends JDialog {
         contador.setBounds(95,40,30,15);
         contador.setFont(new Font("Arial",1,12));
 
-        si = new Boton();
+        si = new JButton();
         si.setText("Si");
         si.setBounds(45,70,50,30);
         si.setFont(new Font("Arial",1,12));
@@ -41,7 +45,7 @@ public class Final extends JDialog {
             dispose();
         });
 
-        no = new Boton();
+        no = new JButton();
         no.setText("No");
         no.setBounds(105,70,50,30);
         no.setFont(new Font("Arial",1,12));

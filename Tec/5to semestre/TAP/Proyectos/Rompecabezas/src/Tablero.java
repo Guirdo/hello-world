@@ -112,11 +112,15 @@ public class Tablero extends JFrame {
 
         //Registro
         registroCronometro = new JTextArea();
-        registroCronometro.setBounds(25,45,120,90);
+        //registroCronometro.setBounds(25,45,120,90);
         registroCronometro.setEditable(false);
+        JScrollPane scroll = new JScrollPane();
+        scroll.setBounds(25,45,120,90);
+        scroll.setViewportView(registroCronometro);
 
         panelCronometro.add(lblCronometro);
-        panelCronometro.add(registroCronometro);
+        //panelCronometro.add(registroCronometro);
+        panelCronometro.add(scroll);
     }
 
     public void crearBotonesJugar(){
