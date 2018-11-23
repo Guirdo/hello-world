@@ -29,7 +29,7 @@ public class EscribirArchivoTexto {
 
         Object[] opcion = {"Si", "No"};
         try {
-            archivo = new FileWriter("C:\\Users\\aldom\\Documents\\Código\\hello-world\\bytes.txt");
+            archivo = new FileWriter("bytes.txt");
             pw = new PrintWriter(archivo);
 
             while (resp == 'S') {
