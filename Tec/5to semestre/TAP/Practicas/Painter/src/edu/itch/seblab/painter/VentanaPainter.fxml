@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.itch.seblab.painter.VentanaPainterController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane fx:id="areaDibujo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseDragged="#dibujarAreaDibujo" prefHeight="200.0" GridPane.columnIndex="1" />
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="14.0">
+         <children>
+            <TitledPane animated="false" text="Color de dibujo">
+               <content>
+                  <VBox spacing="8.0">
+                     <children>
+                        <RadioButton fx:id="rbNegro" mnemonicParsing="false" onAction="#colorGrupoSeleccionado" selected="true" text="Negro">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="grupoColor" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rbRojo" mnemonicParsing="false" onAction="#colorGrupoSeleccionado" text="Rojo" toggleGroup="$grupoColor" />
+                        <RadioButton fx:id="rbVerde" mnemonicParsing="false" onAction="#colorGrupoSeleccionado" text="Verde" toggleGroup="$grupoColor" />
+                        <RadioButton fx:id="rbAzul" mnemonicParsing="false" onAction="#colorGrupoSeleccionado" text="Azul" toggleGroup="$grupoColor" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Tamaño de pincel">
+               <content>
+                  <VBox spacing="8.0">
+                     <children>
+                        <RadioButton fx:id="rbChico" mnemonicParsing="false" onAction="#grupoTamanoSeleccionado" text="Pequeño">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="grupoTamano" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rbMediano" mnemonicParsing="false" onAction="#grupoTamanoSeleccionado" selected="true" text="Mediano" toggleGroup="$grupoTamano" />
+                        <RadioButton fx:id="rbGrande" mnemonicParsing="false" onAction="#grupoTamanoSeleccionado" text="Grande" toggleGroup="$grupoTamano" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <Button fx:id="undo" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#undoPresionado" text="Undo" />
+            <Button fx:id="clear" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clearPresionado" text="Clear" />
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+      </VBox>
+   </children>
+</GridPane>

@@ -116,7 +116,7 @@ public class Directorio extends JFrame implements WindowListener {
         eliminar = new JButton("Eliminar");
         eliminar.setBounds(345, 280, 80, 25);
         eliminar.addActionListener((ActionEvent) -> {
-            if (listaPersona.size() != 0) {
+            if (!listaPersona.isEmpty()) {
                 listaPersona.remove(tabla.getSelectedRow());
                 crearMatriz();
                 tabla.setModel(new DefaultTableModel(matriz, ENCABEZADOS));
@@ -150,12 +150,12 @@ public class Directorio extends JFrame implements WindowListener {
         this.setJMenuBar(menu);
     }
 
+    /**
+     * Si el archo temporal existe (ya sea porque el programa se cerro
+     * inesperadamente), preguntara si desea remplazar el archivo original y
+     * correctamente guardado por el archivo temporal del autoguardado.
+     */
     public void recuperacion() {
-        /**
-         * Si el archo temporal existe (ya sea porque el programa se cerro
-         * inesperadamente), preguntara si desea remplazar el archivo original y
-         * correctamente guardado por el archivo temporal del autoguardado.
-         */
         if (TEMPORAL.exists()) {
             String fecha = "";
             try {
@@ -220,7 +220,7 @@ public class Directorio extends JFrame implements WindowListener {
             tempo.start();
         });
         guardar.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, KeyEvent.CTRL_MASK));
-        
+
         //Configuracion
         JMenuItem cfg = new JMenuItem("Configuración");
         cfg.addActionListener((ActionEvent) -> {

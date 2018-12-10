@@ -6,8 +6,6 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Observable;
 import java.util.Observer;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class ConexionCliente extends Thread implements Observer {
 

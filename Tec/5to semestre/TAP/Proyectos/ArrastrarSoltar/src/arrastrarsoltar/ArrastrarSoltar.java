@@ -7,6 +7,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -23,9 +24,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.KeyStroke;
 import javax.swing.Timer;
 
 /**
@@ -101,7 +106,7 @@ public class ArrastrarSoltar extends JFrame implements MouseMotionListener, Mous
         pnlEstado.setBackground(Color.GRAY);
         pnlEstado.setLayout(null);
         crearEstado();
-//        
+        
 //        JMenuBar menu = new JMenuBar();
 //        JMenu archivo = new JMenu("Archivo");
 //        JMenuItem completar = new JMenuItem("Completar");

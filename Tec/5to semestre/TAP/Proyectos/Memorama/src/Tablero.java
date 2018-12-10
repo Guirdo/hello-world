@@ -8,10 +8,21 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.Timer;
+
+/**
+ * 
+ * Salon de la fama:
+ * Bello Marina Francisco III
+ * Record: 00:13
+ * 
+ * 
+ * Salon de la verguenza
+ * Joab Jaret Valdez Nava
+ * record: toda la vida
+ */
 
 public class Tablero extends JFrame {
 
@@ -42,7 +53,7 @@ public class Tablero extends JFrame {
         voltearMas = false;
         parejas = 0;
         movimientos = 0;
-        temporizador = new Timer(1500, (ActionEvent) -> {
+        temporizador = new Timer(250, (ActionEvent) -> {
             listaBotones.get(pos1).setVolteado(false);
             listaBotones.get(pos2).setVolteado(false);
             voltearMas = true;
