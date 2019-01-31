@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contenido incrustado</title>
+</head>
+<body>
+    <h1>Contenido incrustado</h1>
+    
+    <h4>Imagen</h4>
+    <img height="150" src="img/kailo.jpg" alt="Kailo Ren">
+    
+    <h4>Iframe</h4>
+    <iframe src="archivos/Turing-Pensar.pdf" frameborder="0" width="100%" height="300"></iframe>
+    
+    <!--<embed src="flash/ragdollachievement.swf" type="application/x-shockwave-flash" width="100%">
+    Tipos de mimes: http://www.iana.org/assignments/media-types/media-types.xhtml
+    -->
+    
+    <h4>Objetos</h4>
+    <object data="img/kailo.jpg" width="100%">
+        <param name="" value="">
+    </object>
+    
+    <h4>Audio</h4>
+    <audio controls loop>
+        <source src="audio/TiaRosa.mp3" type="audio/mpeg">
+        Tu navegador no soporta la etiqueta <code>audio</code>.
+    </audio>
+    
+    <h4>Video</h4>
+    <video width="250" controls muted>
+        <source src="video/2013.mp4#t=8,27" type="video/mp4">
+        <track src="subtitulos/sub.vtt" kind="subtitles" label="Chucin">
+        Tu navegador no soporta la etiqueta <code>video</code>.
+    </video>
+    
+    <h4>Canvas</h4>
+    <canvas id="miLienzo" width="350" height="300" style="border: 2px solid black"></canvas>
+    
+    <script>
+        var c = document.getElementById("miLienzo");
+        
+        var ct = c.getContext("2d");
+        
+        ct.fillStyle = "#f500ff";
+        ct.fillRect(40,30,100,120);
+    </script>
+    
+    <h4>Scale Vector Graphics</h4>
+    
+    <style>
+        
+        ellipse {
+            fill: url(#degBezier);
+        }
+    
+    </style>
+    
+    <svg width="300" height="300" style="border: 2px solid black;">
+        <rect x="30" y="30" width="50" height="50" fill="transparent" stroke="blue"/>
+        
+        <circle cx="100" cy="100" r="50" fill="green" stroke="red" stroke-width="10"/>
+        
+        <defs>
+            <linearGradient id="degBezier" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:rgb(32, 209, 53); stop-opacity:1;"/>
+                <stop offset="100%" style="stop-color:black; stop-opacity:1;"/>
+            </linearGradient>
+        </defs>
+        
+        <ellipse cx="150" cy="150" rx="70" ry="50"/>
+        <text fill="white" font-size="35" font-family="Arial" x="100" y="160" >Bezier</text>
+    </svg>
+</body>
+</html>

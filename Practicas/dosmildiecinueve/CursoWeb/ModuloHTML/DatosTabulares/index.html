@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos tabulares</title>
+</head>
+<body>
+    <h1>Datos tabulares</h1>
+    
+    <style>
+        table {
+            border: 1px solid black;
+        }
+        td.celda{
+            font-family:sans-serif;
+            font-size: 13px;
+        }
+        td.encabezado {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+    </style>
+    
+    <table>
+        <tr>
+            <td class="encabezado">No.</td>
+            <td class="encabezado">Nombre</td>
+            <td class="encabezado">Apellido</td>
+            <td class="encabezado">No. ID</td>
+            <td class="encabezado">Telefono</td>
+        </tr>
+        <tr>
+            <td class="celda">1</td>
+            <td class="celda">Aldo</td>
+            <td class="celda">Méndez</td>
+            <td class="celda">1998</td>
+            <td class="celda">74717171</td> 
+        </tr>
+    </table>
+    <br>
+    <table border="" cellpadding="3" cellspacing="3">
+       
+       <colgroup width="50">
+       <col width="100">
+       <col style="background-color: aqua">
+       <col width="100">
+       </colgroup>
+        <caption>Datos de clientes</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aldo</td>
+                <td>Méndez</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Franco</td>
+                <td>Bello</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Alberto</td>
+                <td>Blanco</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align: center;">Hola primo</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
