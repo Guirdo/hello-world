@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+   <h2>Formulario</h2>
+    <form oninput="multiplicacion">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input name="nombre" id="nombre" type="text" autocomplete="off" placeholder="Su nombre">
+            <input name="contrasena" id="pass" type="password">
+            <input type="submit" value="Enviar">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Selecciona un animal</legend>
+            <label for="">Gato</label>
+            <input name="animal" type="radio" value="gato">
+            <label for="">Perro</label>
+            <input name="animal" type="radio" value="perro">
+            <label for="">Ardilla</label>
+            <input name="animal" type="radio" value="ardilla">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Intereses</legend>
+            <legend>Selecciona un animal</legend>
+            <label for="">Gato</label>
+            <input name="animal1[]" type="checkbox" value="gato">
+            <label for="">Perro</label>
+            <input name="animal1[]" type="checkbox" value="perro">
+            <label for="">Ardilla</label>
+            <input name="animal1[]" type="checkbox" value="ardilla">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Fecha de nacimiento</legend>
+            <input type="datetime">
+        </fieldset>
+        
+        <button type="submit">Enviar</button>
+        
+        <select name="" id="" multiple>
+            <option value="">Selecciona un animal</option>
+            <optiongroup label="Mamiferos">
+                <option value="gato">Gato</option>
+                <option value="perro">Perro</option>
+                <option value="ardilla">Ardilla</option>
+            </optiongroup>
+            
+            <optiongroup label="Acuaticos">
+                <option value="tiburom">Tiburon</option>
+                <option value="cangrejo">Cangrejo</option>
+                <option value="calamar">Calamar</option>
+            </optiongroup>
+        </select>
+        
+        <fieldset>
+            <legend>Ciudades</legend>
+            <label for="">Elige una ciudad:</label>
+            <input name="ciudad" type="search" list="ciudades">
+            <datalist id="ciudades">
+                <option value="Chilpo">
+                <option value="Acapulco">
+                <option value="Chilapa">
+            </datalist>
+        </fieldset>
+        
+        <progress value="75" max="100"></progress>
+        <textarea name="" id="area" cols="40" rows="30" maxlength="140"></textarea>
+        
+        <input id="num1" type="number" step="any">*
+        <input id="num2" type="number" step="any">=
+        <output name="resultado" for="num1 num2"></output>
+    </form>
+    <script>
+        function multiplicacion (){
+            var numero1 = document.getElementById("num1").value;
+            var numero2 = document.getElementById("num2").value;
+            
+            var resultado = numero1*numero2;
+            document.getElementById("resultado").value = resultado;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p span:first-child {
+    background-color: brown;
+    font-size: 15px;
+    color: white;
+}
+
+p span:last-child {
+    background-color: #a52aa3;
+    font-size: 10px;
+    color: black;
+}
+
+p span:only-child {
+    background-color: darkblue;
+    font-size: 25px;
+}
+
+a {
+    display: block;
+    margin: 5px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/*a:lang(es) {
+    background-color: firebrick;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}*/
