@@ -31,9 +31,11 @@ public class Actividad6 extends JFrame {
         JButton btnIngresar = new JButton("Comprobar");
         btnIngresar.setBackground(Color.decode("#0BA802"));
         btnIngresar.setForeground(Color.WHITE);
-        JLabel lblEntrada = new JLabel("______");
-        JLabel lblResultado = new JLabel("______");
+        JLabel lblEntrada = new JLabel();
+        JLabel lblResultado = new JLabel();
         lblResultado.setFont(new Font("Arial",1,18));
+        JLabel lbl_1 = new JLabel("Resultado");
+        lbl_1.setFont(new Font("Arial",1,16));
         
         //Logica
         btnIngresar.addActionListener((ActionEvent)->{
@@ -59,8 +61,9 @@ public class Actividad6 extends JFrame {
         this.add(new JLabel("Introduzca la operación"),"left,wrap");
         this.add(tfOperacion,"pushx,growx,wrap");
         this.add(btnIngresar,"right,wrap");
-        this.add(lblEntrada,"wrap");
-        this.add(lblResultado,"center,pushy,,wrap");
+        this.add(lbl_1,"wrap");
+        this.add(lblEntrada,"h 20,wrap");
+        this.add(lblResultado,"h 20,center,pushy,,wrap");
         
         this.pack();
         this.setLocationRelativeTo(null);

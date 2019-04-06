@@ -64,30 +64,30 @@ public class Actividad5 extends JFrame{
             //patron = "[+-]?(\\s*\\d+[xX]?\\s*[+-]?)+";
             //patron = "(rojo|verde|azul)\\s(tierra|mar)";
             //patron = "amor(cito|es)";
-//            patron = "\\d+\\s*([+]\\s*\\d+)*";
-//            Pattern pattern = Pattern.compile(patron,Pattern.CASE_INSENSITIVE);
+            patron = "This is the";
+            Pattern pattern = Pattern.compile(patron,Pattern.CASE_INSENSITIVE);
 
             
-            String cuchillo = "\\W";
-            Pattern pattern = Pattern.compile(cuchillo);
-            String[] split = pattern.split(entrada);
-            
-            System.out.println("Numero de pedazos del pastel"+split.length);
-            
-            for(String element : split){
-                System.out.println(element);
-            }
+//            String cuchillo = "\\W";
+//            Pattern pattern = Pattern.compile(cuchillo);
+//            String[] split = pattern.split(entrada);
+//            
+//            System.out.println("Numero de pedazos del pastel"+split.length);
+//            
+//            for(String element : split){
+//                System.out.println(element);
+//            }
             
             Matcher matcher = pattern.matcher(entrada);
-            boolean matches = matcher.matches();
+            boolean matches = matcher.lookingAt();
             
-//            if(matches){
-//                lbl_1.setVisible(true);
-//                lbl_2.setVisible(false);
-//            }else{
-//                lbl_1.setVisible(false);
-//                lbl_2.setVisible(true);
-//            }
+            if(matches){
+                lbl_1.setVisible(true);
+                lbl_2.setVisible(false);
+            }else{
+                lbl_1.setVisible(false);
+                lbl_2.setVisible(true);
+            }
         });
         
         this.add(lbl_0);

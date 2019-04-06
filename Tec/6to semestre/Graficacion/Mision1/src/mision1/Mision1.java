@@ -27,6 +27,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import mx.edu.itch.sistemas.seblab.Imagen.Imagen;
 
 /**
  *
@@ -64,11 +65,10 @@ public class Mision1 extends JFrame implements MouseListener {
         archivo.add(guardar);
 
         this.setJMenuBar(menu);
-
         Image img;
-        img = new ImageIcon(getClass().getResource("/imagenes/circulo.jpeg")).getImage();
+        
         JButton btnCirculo = new JButton();
-        btnCirculo.setIcon(new ImageIcon(img));
+        btnCirculo.setIcon(Imagen.obtenerImagen(this,"/imagenes/circulo.jpeg"));
         btnCirculo.setBounds(10, 10, 102, 102);
 
         img = new ImageIcon(getClass().getResource("/imagenes/cuadrado.jpeg")).getImage();

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+
+#cabecera {
+    font-size: 50px;
+    font-family: Times New Roman;
+    text-align: center;
+}
+
+#user {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+fieldset {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.log {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ingresar {
+    font-size: 20px;
+    background-color: #a8d7e0;
+    padding: 5px;
+}

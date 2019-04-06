@@ -38,7 +38,6 @@ public class GraficaTabla extends JFrame {
         this.setLayout(new MigLayout());
 
         lienzo = new Lienzo();
-        lienzo.setBackground(Color.CYAN);
         DefaultTableModel modelo = new DefaultTableModel(new String[]{"Nombre", "Promedio"}, 0);
         JTable tabla = new JTable(modelo);
 
@@ -67,7 +66,6 @@ public class GraficaTabla extends JFrame {
 
         JButton btnGraficar = new JButton("Graficar");
         btnGraficar.addActionListener((ActionEvent) -> {
-            lienzo.setVisible(false);
 
             if (modelo.getRowCount() > 0) {
 
@@ -85,10 +83,10 @@ public class GraficaTabla extends JFrame {
                     lienzo.dibujarBarras(calificaciones, nombres);
                 } else {
                     lienzo.dibujarPastel(calificaciones, nombres, acum);
+                    //lienzo.ponerEtiquetas(calificaciones, nombres);
                 }
             }
 
-            lienzo.setVisible(true);
         });
 
         JButton btnExportar = new JButton("Exportar grafica");
