@@ -25,7 +25,7 @@ public class AnLexVersion1 {
         String operacion =sc.nextLine();
         
         Convertidor con = new Convertidor(operacion);
-        System.out.println(con.darPrefija());
+        System.out.println(con.getTokenizado());
         
         
         

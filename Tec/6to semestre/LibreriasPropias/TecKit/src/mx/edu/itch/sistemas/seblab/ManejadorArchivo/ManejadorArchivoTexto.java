@@ -42,6 +42,31 @@ public class ManejadorArchivoTexto {
     }
 
     /**
+     * Contruye una objeto sin parametros
+     */
+    public ManejadorArchivoTexto() {
+
+    }
+
+    /**
+     * Metodo que abre un archivo de texto y saca la cadena de caracteres que este contiene.
+     * @param ruta Ruta del archivo a abrir
+     * @return Contenido del archivo de texto.
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
+    public static String abrirArchivoTexto(String ruta) throws FileNotFoundException, IOException {
+        String cadena,resultado="";
+        BufferedReader b = new BufferedReader(new FileReader(ruta));
+        while ((cadena = b.readLine()) != null) {
+            resultado+=cadena;
+        }
+        b.close();
+        
+        return resultado;
+    }
+
+    /**
      * Metodo que recibe el TextArea donde sera mostrado el contenido de un
      * archivo de texto.
      *
@@ -72,6 +97,7 @@ public class ManejadorArchivoTexto {
 
     /**
      * Metod que guarda el contenido de un JTextArea.
+     *
      * @param jta JTextArea de donde sacara el contenido.
      * @throws IOException Si ocurre una excepción.
      */

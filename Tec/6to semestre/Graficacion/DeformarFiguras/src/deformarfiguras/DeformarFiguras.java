@@ -4,7 +4,6 @@
 package deformarfiguras;
 
 import java.awt.Color;
-import java.awt.LayoutManager;
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
 import mx.edu.itch.sistemas.seblab.Imagen.Imagen;
@@ -70,11 +69,18 @@ public class DeformarFiguras extends Ventana{
             lienzo.repaint();
         });
         
+        Boton btnLimpiar = new Boton("Limpiar lienzo",PaletaColores.LINX_WHITE,null);
+        btnLimpiar.addActionListener((ActionEvent)->{
+            lienzo.removeAll();
+            lienzo.repaint();
+        });
+        
         
         this.add(btnTriangulo,"");
         this.add(lienzo,"span 1 4,h 600,w 650");
         this.add(btnCuadrado,"h 100, w 100");
         this.add(btnEstrella,"h 100, w 100");
+        this.add(btnLimpiar,"h 100");
         this.pack();
         this.setLocationRelativeTo(null);
     }

@@ -1,15 +1,21 @@
 package anlexversion1;
 
+import java.util.ArrayList;
 import java.util.Stack;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Convertidor {
 
     Stack<Character> pila;
     String infija;
+    final String PATRON_NUMERICO = "\\d+([.]\\d+)?";
+    ArrayList<String> tokenizado;
 
     public Convertidor(String cadena) {
         this.pila = new Stack();
         this.infija = cadena;
+        this.tokenizado=this.tokenizarCadena();
     }
 
     public String darPrefija() {
@@ -100,6 +106,25 @@ public class Convertidor {
 
     public boolean esOperador(char c) {
         return c == '+' || c == '-' || c == '/' || c == '*' || c == '%' || c == '^';
+    }
+
+    private ArrayList<String> tokenizarCadena() {
+        ArrayList<String> resultado = new ArrayList<>();
+        String patron = "(?<token>[\\(]|"+PATRON_NUMERICO+"|[-*^/+%]|[\\)])";
+        Pattern pattern = Pattern.compile(patron);
+        Matcher matcher = pattern.matcher(this.infija);
+        
+        while(matcher.find()){
+            String token = matcher.group("token");
+            System.out.println(token);
+            resultado.add(token);
+        }
+        
+        return resultado;
+    }
+    
+    public ArrayList<String> getTokenizado(){
+        return this.tokenizado;
     }
 
 }
