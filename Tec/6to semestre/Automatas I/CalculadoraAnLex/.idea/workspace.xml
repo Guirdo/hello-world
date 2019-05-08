@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e809c6af-51aa-43bd-9079-fbe5461fff53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/excepciones/FormatoEquivocadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/excepciones/ParentesisException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/imagenes/abrir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/imagenes/icono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ClasificacionNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/SistemasNumericos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/ui/Etiqueta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/mx/edu/itch/sistemas/seblab/objetos/CalculadoraTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolacaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/mx/edu/itch/sistemas/seblab/objetos/SistemasNumericosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/AnimacionesJava/.idea/libraries/miglayout_4_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/AnimacionesJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/AnimacionesJava/src/mx/edu/itch/sistemas/Graficos/Componente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/AnimacionesJava/src/mx/edu/itch/sistemas/Graficos/Ruleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/AnimacionesJava/src/mx/edu/itch/sistemas/ui/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCongMixto/.idea/libraries/TecKit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCongMixto/.idea/libraries/miglayout_4_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCongMixto/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCongMixto/src/mx/edu/itch/sistemas/seblab/clases/MetodoCongruencialMixto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCongMixto/src/mx/edu/itch/sistemas/seblab/ui/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/.idea/libraries/TecKit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/.idea/libraries/apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/.idea/libraries/miglayout_4_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/.idea/libraries/org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/src/mx/edu/itch/sistemas/seblab/clases/MetodoCuadradosMedios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/src/mx/edu/itch/sistemas/seblab/ui/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Simulacion/MetodoCuadradosMedios/src/test/mx/edu/itch/sistemas/seblab/clases/MetodoCuadradosMediosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnLexVersion1/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnLexVersion1/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnLexVersion1/src/anlexversion1/AnLexVersion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnLexVersion1/src/anlexversion1/AnLexVersion1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AnLexVersion1/src/anlexversion1/Convertidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnLexVersion1/src/anlexversion1/Convertidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculadoraAnLex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraAnLex.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/Convertidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TokensTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Graficacion/DeformarFiguras/src/deformarfiguras/DeformarFiguras.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Graficacion/DeformarFiguras/src/deformarfiguras/DeformarFiguras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Graficacion/EjemploJOGL/src/mx/edu/itch/sistemas/seblab/EjemploJOGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Graficacion/EjemploJOGL/src/mx/edu/itch/sistemas/seblab/EjemploJOGL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -72,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolaca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="17">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,7 +332,7 @@
       <window_info id="Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32718894" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41781875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -561,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolaca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

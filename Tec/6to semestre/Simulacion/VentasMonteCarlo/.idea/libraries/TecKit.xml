@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TecKit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../LibreriasPropias/TecKit/dist/TecKit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

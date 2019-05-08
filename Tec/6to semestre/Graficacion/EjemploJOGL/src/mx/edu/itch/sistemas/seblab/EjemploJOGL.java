@@ -61,8 +61,8 @@ public class EjemploJOGL implements GLEventListener {
         gl.setSwapInterval(1);
 
         // Setup the drawing area and shading mode
-        gl.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
-        gl.glShadeModel(GL.GL_SMOOTH); // try setting this to GL_FLAT and see what happens.
+        gl.glClearColor(0.5f, 0.1f, 0.1f, 0.5f);
+        gl.glShadeModel(GL.GL_FLAT); // try setting this to GL_FLAT and see what happens.
     }
 
     public void reshape(GLAutoDrawable drawable, int x, int y, int width, int height) {
@@ -77,7 +77,7 @@ public class EjemploJOGL implements GLEventListener {
         gl.glViewport(0, 0, width, height);
         gl.glMatrixMode(GL.GL_PROJECTION);
         gl.glLoadIdentity();
-        glu.gluPerspective(45.0f, h, 1.0, 20.0);
+        glu.gluPerspective(45.0f, h, 1.0, 10.0);
         gl.glMatrixMode(GL.GL_MODELVIEW);
         gl.glLoadIdentity();
     }
@@ -91,7 +91,7 @@ public class EjemploJOGL implements GLEventListener {
         gl.glLoadIdentity();
 
         // Move the "drawing cursor" around
-        gl.glTranslatef(-1.5f, 0.0f, -6.0f);
+        gl.glTranslatef(-1.5f, 0.0f, -10.0f);
 
         // Drawing Using Triangles
         gl.glBegin(GL.GL_TRIANGLES);

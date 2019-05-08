@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="barcodes-7.0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/barcodes-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/forms-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/io-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/kernel-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/layout-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/pdfa-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/pdftest-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/sign-7.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/slf4j-simple-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
