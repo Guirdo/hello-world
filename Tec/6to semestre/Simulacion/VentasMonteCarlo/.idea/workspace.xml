@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507cbdd0-f862-4505-ac6e-51bbfcd6b035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Escenario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Negocio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/generadores/GeneradorPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/generadores/NumerosAleatorios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/principal/Etiqueta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Automatas I/CalculadoraAnLex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Automatas I/CalculadoraAnLex/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Graficacion/EjemploJOGL/src/mx/edu/itch/sistemas/seblab/EjemploJOGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Graficacion/EjemploJOGL/src/mx/edu/itch/sistemas/seblab/EjemploJOGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VentasMonteCarlo/mx/edu/itch/seblab/archivos/resultado.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VentasMonteCarlo/mx/edu/itch/seblab/archivos/resultado.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/itch/seblab/archivos/resultado.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/itch/seblab/archivos/resultado.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/principal/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="120" column="38" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
+            <state>
+              <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5743#5744#0" expanded="true" />
-                <element signature="e#5791#5792#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Escenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="200">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2953#2954#0" expanded="true" />
@@ -74,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Negocio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state>
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -83,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/generadores/NumerosAleatorios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state>
               <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="e#707#708#0" expanded="true" />
@@ -140,69 +132,17 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="seblab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="seblab" type="462c0819:PsiDirectoryNode" />
-              <item name="archivos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="seblab" type="462c0819:PsiDirectoryNode" />
-              <item name="clases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="seblab" type="462c0819:PsiDirectoryNode" />
-              <item name="generadores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VentasMonteCarlo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VentasMonteCarlo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="seblab" type="462c0819:PsiDirectoryNode" />
-              <item name="principal" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/slf4j-simple-1.7.25.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,8 +185,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18003026" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,6 +214,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16129032" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39324117" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../../../../../Librerias/iText/7.0.7/layout-7.0.7.jar!/com/itextpdf/layout/Document.class">
@@ -313,35 +282,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Negocio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/generadores/NumerosAleatorios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state>
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="e#707#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Escenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2953#2954#0" expanded="true" />
-            <element signature="e#2991#2992#0" expanded="true" />
-            <element signature="e#3033#3034#0" expanded="true" />
-            <element signature="e#3071#3072#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
-            <element signature="e#3147#3148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -359,14 +322,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/principal/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/seblab/clases/Escenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="120" column="38" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
+        <state relative-caret-position="200">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5743#5744#0" expanded="true" />
-            <element signature="e#5791#5792#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+            <element signature="e#2991#2992#0" expanded="true" />
+            <element signature="e#3033#3034#0" expanded="true" />
+            <element signature="e#3071#3072#0" expanded="true" />
+            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#3147#3148#0" expanded="true" />
           </folding>
         </state>
       </provider>
