@@ -3,11 +3,8 @@ package mx.edu.itch.sistemas.seblab.InterfazGrafica;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.LayoutManager;
-import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
-import javax.swing.JTextArea;
-import net.miginfocom.swing.MigLayout;
 
 public class Presentacion extends JDialog {
     

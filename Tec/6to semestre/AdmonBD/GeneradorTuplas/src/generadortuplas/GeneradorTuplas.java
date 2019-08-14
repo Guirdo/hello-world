@@ -3,6 +3,11 @@
  */
 package generadortuplas;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,27 +24,25 @@ public class GeneradorTuplas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
-        String[] nombres = {"Susana", "Ricardo", "Fausto", "Rachel", "Omar", "Juan", "Adolfo", "Diana", "Guadalupe", 
-                            "Aldo","Pedro","Victor","Flor","Antonio","Arturo","Gloria"};
-        String[] apellidos = {"Bello", "Flores", "Ramos", "Gonzalez", "Vazquez", "Hilario", "Leyva", "Andrade", "Esteban",
-                                "Solano","Gutierrez","Mendez","Aguilar","Castañon"};
+        
+        ArrayList<String> nombres = cargarLista("C:\\Users\\aldom\\Documents\\Codigo\\hello-world\\Tec\\6to semestre\\AdmonBD\\GeneradorTuplas\\src\\archivos\\nombresPersonas.txt");
+        ArrayList<String> apellidos = cargarLista("C:\\Users\\aldom\\Documents\\Codigo\\hello-world\\Tec\\6to semestre\\AdmonBD\\GeneradorTuplas\\src\\archivos\\apellidosPersonas.txt");
 
 //        String[] nombres = {"Pablo","Edgar","Ignacio","Virginia","Octavio","Michael","Carlos",
 //                            "Rosario","Jose","Ernest","Juana","Vicente","Juan","Eduardo","Gabriela","Emily",
-//                            "Satori","LiPo","Manuel","Isacc"};
+//                            "Satori","LiPo","Manuel","Isacc","Platon"};
 //        String[] apellidos = {"Neruda","Poe","Altamirano","Woolf","Paz","Ende","Pellicer",
 //                            "Castellanos","Revueltas","Hemingway","Ibarbourou","Huidobro"};
 
         String comando = "insert into nomTabla";
         Random rnd = new Random();
 
-        int numIteraciones = 50;
+        int numIteraciones = 1000;
         boolean iniciado = false;
 
         int dia,mes;
         String fecha;
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i <numIteraciones; i++) {
             
             dia = rnd.nextInt(28)+1;
             mes = rnd.nextInt(3)+1;
@@ -47,9 +50,9 @@ public class GeneradorTuplas {
             fecha = "2019-"+mes+"-"+dia;
             
             comando += generarTupla(iniciado,
-                    nombres[rnd.nextInt(nombres.length)],
-                    apellidos[rnd.nextInt(apellidos.length)]+" "+apellidos[rnd.nextInt(apellidos.length)],
-                    generarCadenaAleatoria(10)) + 
+                    nombres.get(rnd.nextInt(nombres.size())),
+                    apellidos.get(rnd.nextInt(apellidos.size())),
+                    generarCadenaAleatoria(10), generarCadenaAleatoria(20)) + 
                     ",\n";
             if(!iniciado){
                 iniciado=true;
@@ -57,7 +60,29 @@ public class GeneradorTuplas {
         }
 
         System.out.println(comando);
+        
+        
 
+    }
+    
+    private static ArrayList<String> cargarLista(String ruta){
+        ArrayList<String> lista = new ArrayList<>();
+        
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(ruta));
+            String cadena="";
+            
+            while((cadena=br.readLine())!=null){
+                lista.add(cadena);
+            }
+            
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        
+        return lista;
     }
 
     public static String generarTupla(boolean iniciado, String... cadenas) {
