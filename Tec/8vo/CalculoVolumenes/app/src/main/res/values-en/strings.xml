@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculo de Volumenes</string>
+    <string name="btnEsfera">Esphere</string>
+    <string name="btnPiramide">Pyramid</string>
+    <string name="btnCubo">Cube</string>
+    <string name="btnCilindro">Cylinder</string>
+    <string name="txtRadio">Radio: </string>
+    <string name="txtLado">Side: </string>
+    <string name="txtAltura">Height: </string>
+    <string name="btnCalcular">Calculate</string>
+    <string name="txtResultado">Aftermath: </string>
+    <string name="btnRegresar">Return</string>
+    <string name="formulaEsfera">V(esphere) = (4/3)*pi*radio^3</string>
+    <string name="formulaCubo">V(cube) = side^3</string>
+    <string name="formulaPiramide">V(pyramid) = (side^2*h)/3</string>
+    <string name="formulaCilindro">V(cylinder) = pi*radio^2*height</string>
+</resources>

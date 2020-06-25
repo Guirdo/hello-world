@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Calculo de Volumenes</string>
+    <string name="btnEsfera">Esfera</string>
+    <string name="btnPiramide">Piramide</string>
+    <string name="btnCubo">Cubo</string>
+    <string name="btnCilindro">Cilindro</string>
+    <string name="txtRadio">Radio: </string>
+    <string name="txtLado">Lado: </string>
+    <string name="txtAltura">Altura: </string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtResultado">Resultado: </string>
+    <string name="btnRegresar">Regresar</string>
+    <string name="formulaEsfera">V(esfera) = (4/3)*pi*radio^3</string>
+    <string name="formulaCubo">V(cubo) = lado^3</string>
+    <string name="formulaPiramide">V(piramide) = (lado^2*h)/3</string>
+    <string name="formulaCilindro">V(cilindro) = pi*radio^2*altura</string>
+</resources>

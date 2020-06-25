@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaseDatos</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnVer">Ver todo</string>
+    <string name="btnConsultar">Consultar</string>
+    <string name="etRFC">Ingrese RFC</string>
+    <string name="etNombre">Ingrese Nombre</string>
+    <string name="etTel">Ingrese Telefono</string>
+    <string name="txt1">Buscar por RFC</string>
+</resources>

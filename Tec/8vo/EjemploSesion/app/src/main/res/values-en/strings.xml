@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SessionExample</string>
+    <string name="txtUsuario">User: </string>
+    <string name="txtContrasena">Password: </string>
+    <string name="btnCancelar">Cancel</string>
+    <string name="btnConectar">Log in</string>
+    <string name="edtUsuario">Inter user</string>
+    <string name="edtContrasena">Inter password</string>
+</resources>

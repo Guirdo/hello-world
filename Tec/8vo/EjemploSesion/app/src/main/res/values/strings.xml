@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EjemploSesion</string>
+    <string name="txtUsuario">Usuario: </string>
+    <string name="txtContrasena">Contraseña: </string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnConectar">Conectar</string>
+    <string name="edtUsuario">Ingrese user</string>
+    <string name="edtContrasena">Ingrese contra</string>
+</resources>

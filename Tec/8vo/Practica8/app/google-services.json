@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1056084545252",
+    "firebase_url": "https://practiva8-dam.firebaseio.com",
+    "project_id": "practiva8-dam",
+    "storage_bucket": "practiva8-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056084545252:android:902838a2e45b02e63b66f1",
+        "android_client_info": {
+          "package_name": "dam.practiva8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056084545252-sie2mrksdbs2nmmjf477ccmi8svcc3aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dam.practiva8",
+            "certificate_hash": "c30f9d93d743208af6c874c6ddb1322f7aacaa36"
+          }
+        },
+        {
+          "client_id": "1056084545252-pcc0nl592jdj0gjo83qufpoju4dagbti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYzZ8jXRlB9ZO9sbsSWAhCClT0sB_8Q7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056084545252-pcc0nl592jdj0gjo83qufpoju4dagbti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

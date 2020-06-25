@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CambiosActividades</string>
+    <string name="actUno">Estas en la actividad Uno</string>
+    <string name="lblActUno">Actividad Uno</string>
+    <string name="btnInvocar">INVOCAR</string>
+    <string name="btnPasar">Pasar parametro</string>
+    <string name="txtIngrese">Ingrese su nombre</string>
+</resources>

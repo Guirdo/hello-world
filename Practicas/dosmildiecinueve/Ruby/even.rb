@@ -1,12 +1,14 @@
 print "Introduce un numero: "
 numero = gets.chomp
-
 numero = numero.to_i
 
 residuo = numero % 2
 
-if residuo == 0
-    puts "#{numero} es par."
+mensaje =  if residuo == 0
+    "#{numero} es par!"
 else
-    puts "#{numero} es impar."
+    "#{numero} es impar!"
 end
+
+puts mensaje
+

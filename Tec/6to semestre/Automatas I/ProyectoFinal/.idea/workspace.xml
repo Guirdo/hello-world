@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb0762c-693d-4ef1-9cc7-6e4af35b5c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Actividad11/.idea/libraries/TecKit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/.idea/libraries/miglayout_4_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/automatas/Automata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/automatas/Entero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/automatas/EnteroSigno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/automatas/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/automatas/NumeroTelefono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/automatas/Real.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/principal/Manejador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/principal/Pantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad11/src/mx/edu/itch/isc/seblab/principal/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataNumeroReal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataSentencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/manejadores/ManejoCadenas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/ManejadorPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Pantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/.idea/libraries/TecKit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/.idea/libraries/miglayout_4_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/componentes/AccionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/componentes/Boton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/componentes/BotonPresion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/figuras/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/figuras/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/figuras/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/figuras/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/principal/Manejador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/principal/Pantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/principal/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/relleno/Lienzo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/relleno/Relleno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/circulo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/cuadrado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/rectangulo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/t1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/t2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/t3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/t4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Graficacion/TexturasEntramado/src/mx/edu/itch/isc/seblab/texturas/triangulo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../5to semestre/TAP/Proyectos/TecSQLWorkbench/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../5to semestre/TAP/Proyectos/TecSQLWorkbench/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AdmonBD/GeneradorTuplas/src/generadortuplas/GeneradorTuplas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdmonBD/GeneradorTuplas/src/generadortuplas/GeneradorTuplas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LibreriasPropias/TecKit/src/mx/edu/itch/sistemas/seblab/InterfazGrafica/Presentacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LibreriasPropias/TecKit/src/mx/edu/itch/sistemas/seblab/InterfazGrafica/Presentacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraAnLex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculadoraAnLex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/ManejadorPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-876">
+            <state relative-caret-position="80">
               <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,15 +29,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/manejadores/ManejoCadenas.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#esOperadorLogico#0;class#ManejoCadenas#0" />
-                <element signature="method#esVariable#0;class#ManejoCadenas#0" />
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataNumeroReal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="480">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#491#492#0" expanded="true" />
@@ -106,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="220">
               <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding>
                 <element signature="e#1065#1066#0" expanded="true" />
@@ -121,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataSentencia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
+            <state relative-caret-position="240">
               <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="e#1568#1569#0" expanded="true" />
@@ -180,6 +133,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,15 +173,30 @@
               <item name="seblab" type="462c0819:PsiDirectoryNode" />
               <item name="principal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProyectoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ProyectoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="miglayout-4.0-javadoc" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ProyectoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="miglayout-4.0-javadoc" type="70bed36:NamedLibraryElementNode" />
+              <item name="miglayout-4.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Librerias/MigLayout/miglayout-4.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -274,8 +243,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,68 +317,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Pantalla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataSentencia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataNumeroReal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/manejadores/ManejoCadenas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="1054">
           <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -420,10 +331,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/ManejadorPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
+        <state relative-caret-position="80">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataNumeroReal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/automatas/AutomataSentencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Pantalla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/isc/seblab/principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
           </folding>
         </state>
       </provider>

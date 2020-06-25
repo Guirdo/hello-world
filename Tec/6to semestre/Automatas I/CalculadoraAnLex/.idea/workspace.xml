@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e809c6af-51aa-43bd-9079-fbe5461fff53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/.idea/libraries/miglayout_4_0_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/src/mx/edu/itch/seblab/clases/Bola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/src/mx/edu/itch/seblab/clases/Campo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/src/mx/edu/itch/seblab/clases/PVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/src/mx/edu/itch/seblab/principal/Manejador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/src/mx/edu/itch/seblab/principal/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019 verano/BouncingBalls/src/mx/edu/itch/seblab/principal/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Graficacion/EjemploJOGL/src/mx/edu/itch/sistemas/seblab/EjemploJOGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Graficacion/EjemploJOGL/src/mx/edu/itch/sistemas/seblab/EjemploJOGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Practicas/dosmildiecinueve/Ruby/even.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Practicas/dosmildiecinueve/Ruby/even.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2019 verano/The nature of code/BolaRebota/Bola.pde" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2019 verano/The nature of code/BolaRebota/Bola.pde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2019invierno/FruitWorld/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2019invierno/FruitWorld/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoFinal/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/ui/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
+            <state relative-caret-position="2500">
               <caret line="141" column="81" selection-start-line="141" selection-start-column="81" selection-end-line="141" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -29,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolaca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="320">
               <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,17 +56,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/Calculadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="580">
               <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+              <folding>
+                <element signature="method#convertirNumeros#0;class#Calculadora#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ClasificacionNumeros.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/SistemasNumericos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            <state relative-caret-position="20">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -133,7 +148,39 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CalculadoraAnLex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculadoraAnLex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculadoraAnLex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculadoraAnLex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculadoraAnLex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculadoraAnLex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="seblab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculadoraAnLex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculadoraAnLex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="seblab" type="462c0819:PsiDirectoryNode" />
+              <item name="objetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
@@ -327,7 +374,7 @@
       <window_info id="UI Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Image Layers" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.18154311" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -474,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/SistemasNumericos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/regex/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
@@ -495,10 +535,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ClasificacionNumeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/ui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
+        <state relative-caret-position="2500">
           <caret line="141" column="81" selection-start-line="141" selection-start-column="81" selection-end-line="141" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolaca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,25 +564,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="580">
           <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ClasificacionNumeros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/ConvertidorInfijaPolaca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#convertirNumeros#0;class#Calculadora#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/edu/itch/sistemas/seblab/objetos/SistemasNumericos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
